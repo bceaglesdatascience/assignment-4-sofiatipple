@@ -25,9 +25,9 @@ customer_cost={}
 
 for x,customer in enumerate(customer_list):
     if customer in customer_cost:
-        customer_cost[customer_list]+=final_cost[x]
+        customer_cost[customer]+=final_cost[x]
     else:
-        customer_cost[customer_list]=final_cost[x]
+        customer_cost[customer]=final_cost[x]
 
 
 
